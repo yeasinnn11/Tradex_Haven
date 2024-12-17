@@ -6,7 +6,7 @@ import streamlit as st
 st.set_page_config(page_title="Tradex Haven", page_icon="Tradex.png", layout="wide")
 
 # Define the image path
-image_path = "pic.png"  # Adjust the path as needed (use "assets/pic.webp" if in a subfolder)
+image_path = "Tradex_Haven/pic.png"  # Adjust the path as needed (use "assets/pic.webp" if in a subfolder)
 
 # Check if the image exists and is a valid file
 if os.path.exists(image_path):
