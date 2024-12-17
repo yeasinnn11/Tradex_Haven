@@ -11,17 +11,17 @@ image_path = "pic.png"  # Adjust the path as needed (use "assets/pic.webp" if in
 # Check if the image exists and is a valid file
 if os.path.exists(image_path):
     try:
-        image = Image.open(Tradex_Haven)  # Open the image
+        image = Image.open(image_path)  # Correctly open the image
         st.image(image, caption="Empower Your Trading Journey 📊", use_container_width=True)
     except Exception as e:
         st.error(f"Error opening image: {e}")
 else:
     st.error(f"Image file '{image_path}' not found. Please ensure it exists in the specified path.")
 
-
 # Create the app's About/Guide section
 st.title("Welcome to Tradex Haven 🌍")
 
+# Use the correct image path for the header image
 st.image(image_path, caption="Empower Your Trading Journey 📊", use_container_width=True)
 
 st.markdown("""
