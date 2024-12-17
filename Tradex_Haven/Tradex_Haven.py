@@ -3,7 +3,7 @@ from PIL import Image
 import streamlit as st
 
 # Set page configuration
-st.set_page_config(page_title="Tradex Haven", page_icon="Tradex.png", layout="wide")
+st.set_page_config(page_title="Tradex Haven", page_icon="Tradex_Haven/Tradex.png", layout="wide")
 
 # Define the image path
 image_path = "Tradex_Haven/pic.png"  # Update this path as necessary
