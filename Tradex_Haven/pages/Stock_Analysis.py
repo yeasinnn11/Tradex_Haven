@@ -8,7 +8,7 @@ from pages.utils.plotly_figure import plotly_table, plotly_table_for_days
 # Setting page config
 st.set_page_config(
     page_title="Tradex Haven",
-    page_icon="Tradex.png",
+    page_icon="Tradex_Haven/Tradex.png",
     layout="wide",
 )
 
