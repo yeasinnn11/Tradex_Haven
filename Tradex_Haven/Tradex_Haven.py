@@ -55,3 +55,5 @@ Our application is built on robust financial algorithms and real-time data fetch
 
 Start exploring Tradex Haven today to transform your trading journey! 🌟
 """)
+
+st.markdown("### Made by: Yeasin Arafat")
