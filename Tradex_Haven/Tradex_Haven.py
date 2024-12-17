@@ -8,17 +8,7 @@ st.set_page_config(page_title="Tradex Haven", page_icon="Tradex.png", layout="wi
 # Define the image path
 image_path = "Tradex_Haven/pic.png"  # Update this path as necessary
 
-# Check if the image exists and is a valid file
-if os.path.exists(image_path):
-    try:
-        image = Image.open(image_path)  # Open the image correctly
-        st.image(image, caption="Empower Your Trading Journey 📊")  # Removed use_container_width
-    except Exception as e:
-        st.error(f"Error opening image: {e}")
-else:
-    st.error(f"Image file '{image_path}' not found. Please ensure it exists in the specified path.")
 
-# Create the app's About/Guide section
 st.title("Welcome to Tradex Haven 🌍")
 
 # Use the correct image path for the header image (adjust path if necessary)
