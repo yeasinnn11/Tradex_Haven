@@ -6,12 +6,12 @@ import streamlit as st
 st.set_page_config(page_title="Tradex Haven", page_icon="Tradex.png", layout="wide")
 
 # Define the image path
-image_path = "pic.webp"  # Adjust the path as needed (use "assets/pic.webp" if in a subfolder)
+image_path = "pic.png"  # Adjust the path as needed (use "assets/pic.webp" if in a subfolder)
 
 # Check if the image exists and is a valid file
 if os.path.exists(image_path):
     try:
-        image = Image.open(image_path)  # Open the image
+        image = Image.open(Tradex_Haven)  # Open the image
         st.image(image, caption="Empower Your Trading Journey 📊", use_container_width=True)
     except Exception as e:
         st.error(f"Error opening image: {e}")
