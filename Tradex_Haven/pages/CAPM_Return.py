@@ -7,7 +7,7 @@ import datetime
 import capm_functions as capm_functions
 
 st.set_page_config(page_title = 'Tradex Haven',
-                   page_icon= "Tradex.png",
+                   page_icon= "Tradex_Haven/Tradex.png",
                    layout= 'wide')
 
 st.title("Capital Asset Pricing Model")
