@@ -12,7 +12,7 @@ image_path = "Tradex_Haven/pic.png"  # Update this path as necessary
 if os.path.exists(image_path):
     try:
         image = Image.open(image_path)  # Open the image correctly
-        st.image(image, caption="Empower Your Trading Journey 📊", use_container_width=True)
+        st.image(image, caption="Empower Your Trading Journey 📊")  # Removed use_container_width
     except Exception as e:
         st.error(f"Error opening image: {e}")
 else:
@@ -22,7 +22,7 @@ else:
 st.title("Welcome to Tradex Haven 🌍")
 
 # Use the correct image path for the header image (adjust path if necessary)
-st.image(image_path, caption="Empower Your Trading Journey 📊", use_container_width=True)
+st.image(image_path, caption="Empower Your Trading Journey 📊")  # Removed use_container_width
 
 st.markdown("""
 **Tradex Haven** is a cutting-edge trading application designed to empower you to make informed investment decisions. 
