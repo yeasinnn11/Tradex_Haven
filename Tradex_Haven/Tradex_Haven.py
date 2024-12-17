@@ -1,16 +1,23 @@
-import streamlit as st
-from PIL import Image
 import os
+from PIL import Image
+import streamlit as st
+
 # Set page configuration
 st.set_page_config(page_title="Tradex Haven", page_icon="Tradex.png", layout="wide")
 
-# Update file path
-image_path = "Tradex_Haven/pic.webp"  # Adjust path as needed
+# Define the image path
+image_path = "pic.webp"  # Adjust the path as needed (use "assets/pic.webp" if in a subfolder)
+
+# Check if the image exists and is a valid file
 if os.path.exists(image_path):
-    image = Image.open(image_path)
-    st.image(image, caption="Empower Your Trading Journey 📊", use_container_width=True)
+    try:
+        image = Image.open(image_path)  # Open the image
+        st.image(image, caption="Empower Your Trading Journey 📊", use_container_width=True)
+    except Exception as e:
+        st.error(f"Error opening image: {e}")
 else:
-    st.error(f"Error: '{image_path}' not found. Please upload the file.")
+    st.error(f"Image file '{image_path}' not found. Please ensure it exists in the specified path.")
+
 
 # Create the app's About/Guide section
 st.title("Welcome to Tradex Haven 🌍")
