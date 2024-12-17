@@ -22,7 +22,7 @@ else:
 # Create the app's About/Guide section
 st.title("Welcome to Tradex Haven 🌍")
 
-st.image(image, caption="Empower Your Trading Journey 📊", use_container_width=True)
+st.image(image_path, caption="Empower Your Trading Journey 📊", use_container_width=True)
 
 st.markdown("""
 **Tradex Haven** is a cutting-edge trading application designed to empower you to make informed investment decisions. 
