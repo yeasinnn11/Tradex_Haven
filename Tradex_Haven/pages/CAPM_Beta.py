@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 
 # --- Page Config ---
 st.set_page_config(page_title="Tradex Haven", 
-                   page_icon= "Tradex.png",
+                   page_icon= "Tradex_Haven/Tradex.png",
                    layout="wide")
 
 # --- Helper Functions ---
