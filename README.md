@@ -13,10 +13,11 @@ Tradex Haven is a powerful stock market analysis and investment tool built with 
 
 2. **CAPM Return** 📈
    - Computes the **Expected Return** of a stock based on its Beta value, risk-free rate, and market return.
+   - Visualizes data using Plotly for enhanced interactivity.
 
 3. **Stock Analysis** 🔍
    - Provides detailed insights into historical performance, technical indicators, and stock fundamentals.
-   - Visualizes data using Plotly for enhanced interactivity.
+   
 
 4. **Interactive Dashboard** 🎛️
    - Real-time data fetched using the **Yahoo Finance API**.
