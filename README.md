@@ -1,5 +1,5 @@
 
-# Tradex Haven 🏦
+# Tradex Haven 🏦 [Link🔗](https://tradexhaven.streamlit.app/)
 
 Tradex Haven is a powerful stock market analysis and investment tool built with Python and Streamlit. The app leverages financial models such as the **Capital Asset Pricing Model (CAPM)** and stock analysis to empower users to make informed trading decisions.
 
